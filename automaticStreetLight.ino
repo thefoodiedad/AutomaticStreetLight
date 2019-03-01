@@ -14,7 +14,7 @@ digitalWrite(Relay2, HIGH);
 
 void loop() {
   // put your main code here, to run repeatedly:
-int x = digitalRead(A0);
+int x = analogRead(A0);
 if(x<=512)
 {
   digitalWrite(Relay1, LOW); // lights turned on
